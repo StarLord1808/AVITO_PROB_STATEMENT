@@ -1,0 +1,12 @@
+{
+    "mysql": {
+        "host": "35.239.147.18",
+        "port": "3306",
+        "user": "thiru",
+        "password": "thiru",
+        "database": "avito_db"
+    },
+    "gcs": {
+        "error_bucket": "avito-landing-bucket-central1"
+    }
+}

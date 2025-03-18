@@ -1,0 +1,71 @@
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/editor"
+    },
+    {
+      "members": [
+        "serviceAccount:cloud-function-sa@ordinal-reason-449406-f0.iam.gserviceaccount.com"
+      ],
+      "role": "roles/eventarc.eventReceiver"
+    },
+    {
+--
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/iam.serviceAccountAdmin"
+    },
+    {
+      "members": [
+        "serviceAccount:service-674629315151@gcp-sa-pubsub.iam.gserviceaccount.com"
+      ],
+      "role": "roles/iam.serviceAccountTokenCreator"
+    },
+    {
+--
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/iam.serviceAccountUser"
+    },
+    {
+      "members": [
+        "serviceAccount:vertex-permission@ordinal-reason-449406-f0.iam.gserviceaccount.com"
+      ],
+      "role": "roles/ml.developer"
+    },
+    {
+--
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "serviceAccount:cloud-function-sa@ordinal-reason-449406-f0.iam.gserviceaccount.com",
+        "serviceAccount:service-674629315151@gcp-sa-eventarc.iam.gserviceaccount.com",
+        "serviceAccount:service-674629315151@gcp-sa-pubsub.iam.gserviceaccount.com",
+        "serviceAccount:service-674629315151@gs-project-accounts.iam.gserviceaccount.com"
+      ],
+--
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/resourcemanager.projectIamAdmin"
+    },
+    {
+      "members": [
+        "serviceAccount:service-674629315151@serverless-robot-prod.iam.gserviceaccount.com"
+      ],
+      "role": "roles/run.serviceAgent"
+    },
+    {
+--
+        "user:dark.knight.180899@gmail.com"
+      ],
+      "role": "roles/serviceusage.serviceUsageConsumer"
+    },
+    {
+      "members": [
+        "deleted:serviceAccount:gcp-data-engineering@ordinal-reason-449406-f0.iam.gserviceaccount.com?uid=114131358334771293141",
+        "serviceAccount:674629315151-compute@developer.gserviceaccount.com",
+        "serviceAccount:cloud-function-sa@ordinal-reason-449406-f0.iam.gserviceaccount.com",
+        "serviceAccount:service-674629315151@gcp-sa-datafusion.iam.gserviceaccount.com",
+        "serviceAccount:service-674629315151@gcp-sa-eventarc.iam.gserviceaccount.com"

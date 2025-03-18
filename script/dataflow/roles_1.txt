@@ -1,0 +1,11 @@
+      "role": "roles/dataflow.admin"
+    },
+    {
+      "members": [
+        "serviceAccount:service-674629315151@dataflow-service-producer-prod.iam.gserviceaccount.com"
+      ],
+      "role": "roles/dataflow.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-674629315151@dataflow-service-producer-prod.iam.gserviceaccount.com",

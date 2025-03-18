@@ -1,0 +1,7 @@
+{
+    "DB_USER": "thiru",
+    "DB_PASSWORD": "thiru",
+    "DB_NAME": "avito_db",
+    "INSTANCE_CONNECTION_NAME": "ordinal-reason-449406-f0:us-central1:avito-db-instance",
+    "DB_HOST": "35.239.147.18"
+}

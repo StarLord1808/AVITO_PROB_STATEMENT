@@ -1,0 +1,11 @@
+database:
+  host: "35.239.147.18"
+  user: "thiru"
+  password: "thiru"
+  database: "avito_db"
+
+gcp:
+  project: "your-gcp-project"
+  region: "us-central1"
+  temp_bucket: "gs://avito-bronze-bucket-central1/temp"
+  staging_bucket: "gs://avito-bronze-bucket-central1/staging"
