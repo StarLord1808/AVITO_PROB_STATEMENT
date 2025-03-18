@@ -15,7 +15,7 @@ region_ref_df = spark.read.format("bigquery").option("table", "ordinal-reason-44
 print("✅ Location, City_Reference, and Region_Reference tables loaded!")
 
 # Google Maps API Key (Ensure it's securely stored)
-GOOGLE_MAPS_API_KEY = "AIzaSyDcujfSDadzGxQj_TpFSzhh9DnE0J07xCI"
+GOOGLE_MAPS_API_KEY = "" # Add your Google Maps API Key here
 
 # Function to fetch latitude, longitude, and country name
 def get_lat_long_country(region_name):
