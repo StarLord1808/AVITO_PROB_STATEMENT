@@ -18,7 +18,7 @@ The pipeline follows a **Bronze → Silver → Gold** architecture using **Googl
 - Load data from the **Landing Layer → Cloud SQL (MySQL)** while maintaining schema integrity:
   - Keep **7 original tables** (`AdsInfo`, `Category`, `Location`, `PhoneRequestsStream`, `SearchInfo`, `SearchStream`, `UserInfo`, `VisitsStream`).
   - Add an **insertion timestamp** column.  
-  - Merge `VisitsStream` and `PhoneRequestsStream` into `VisitPhoneRequestStream` using **Cloud Run**.  
+  - Merge `VisitsStream` and `PhoneRequestsStream` into `VisitPhoneRequestStream` using **Data Proc**.  
 - Store a copy of raw data in the **GCS Bronze Bucket** for backup and future processing.  
 
 ### **3️⃣ Silver Layer (Data Cleaning & Normalization)**  
